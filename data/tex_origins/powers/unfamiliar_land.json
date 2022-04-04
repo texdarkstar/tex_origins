@@ -1,0 +1,29 @@
+{
+    "name": "Unfamiliar Land",
+    "description": "Being in the end gives you slowness and weakness.",
+    "condition": {
+        "type": "origins:dimension",
+        "dimension": "minecraft:the_end"
+    },
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 20,
+    "tick_rate": 10,
+    "effects": [
+        {
+            "effect": "minecraft:slowness",
+            "duration": 100,
+            "amplifier": 1,
+            "show_particles": true,
+            "show_icon": true
+        },
+        {
+            "effect": "minecraft:weakness",
+            "duration": 100,
+            "amplifier": 0,
+            "show_particles": true,
+            "show_icon": true
+        }
+    ]
+}

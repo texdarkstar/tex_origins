@@ -5,5 +5,5 @@
   "modifier":{
 	   "value": 2,
 	   "operation": "multiply_base"
-	   }
+   }
 }

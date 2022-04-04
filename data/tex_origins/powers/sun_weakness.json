@@ -1,0 +1,36 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 20,
+    "effects": {
+            "effect": "minecraft:blindness",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": false
+        },
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+            {
+				"type": "origins:exposed_to_sun",
+				"block_condition": {
+                    "type": "origins:exposed_to_sky"
+                }
+			},
+			{
+				"type": "origins:equipped_item",
+				"equipment_slot": "head",
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:leather_helmet"
+					}
+				},
+				"inverted": true
+			}
+		]
+	},
+    "name": "Bright sun",
+    "description": "The sun is too bright for your cave adapted eyes."
+}

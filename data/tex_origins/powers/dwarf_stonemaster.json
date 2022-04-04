@@ -1,0 +1,17 @@
+{
+    "name": "Stone Master",
+    "description": "You can craft stone blocks out of cobble.",
+    "type": "origins:recipe",
+    "recipe": {
+        "id": "tex_origins:stonemaster",
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+            {
+                "item": "minecraft:cobblestone"
+            }
+        ],
+        "result": {
+            "item": "minecraft:stone"
+        }
+    }
+}

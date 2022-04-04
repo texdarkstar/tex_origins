@@ -1,0 +1,19 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 400,
+    "effect": {
+            "effect": "minecraft:nausea",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": false
+    },
+	"block_condition": {
+        "type": "origins:height",
+        "comparison": ">=",
+        "compare_to": 128
+	},
+    "name": "Acrophobia",
+    "description": "You're afraid of heights."
+}
