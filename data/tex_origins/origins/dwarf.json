@@ -5,10 +5,8 @@
     "impact": 3,
     "powers": [
         "origins:cat_vision",
-        "tex_origins:frail_body",
-        "tex_origins:rock_hard_skin",
-        "tex_origins:dwarf_mining",
-        "tex_origins:dwarf_miners_song",
+        "tex_origins:small_stature",
+        "tex_origins:dwarf_rock_hard_skin",
         "tex_origins:dwarf_fortune"
     ]
 }

@@ -1,4 +1,6 @@
 {
+    "name": "Miners Song",
+    "description": "After spending much of your life underground, you've learned how to extract materials from ores much more efficiently.",
     "hidden": false,
     "type": "origins:multiple",
 
@@ -14,12 +16,10 @@
         },
         "block_condition": {
             "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:block",
-                    "block": "minecraft:iron_ore"
-                }
-            ]
+            "conditions": {
+                "type": "origins:block",
+                "block": "minecraft:iron_ore"
+            }
         },
         "only_when_harvested": true
     },
@@ -36,12 +36,10 @@
         },
         "block_condition": {
             "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:block",
-                    "block": "minecraft:gold_ore"
-                }
-            ]
+            "conditions": {
+                "type": "origins:block",
+                "block": "minecraft:gold_ore"
+            }
         },
         "only_when_harvested": true
     },
@@ -58,12 +56,10 @@
         },
         "block_condition": {
             "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:block",
-                    "block": "minecraft:copper_ore"
-                }
-            ]
+            "conditions": {
+                "type": "origins:block",
+                "block": "minecraft:copper_ore"
+            }
         },
         "only_when_harvested": true
     },
@@ -80,12 +76,10 @@
         },
         "block_condition": {
             "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:block",
-                    "block": "minecraft:redstone_ore"
-                }
-            ]
+            "conditions": {
+                "type": "origins:block",
+                "block": "minecraft:redstone_ore"
+            }
         },
         "only_when_harvested": true
     },
@@ -102,12 +96,10 @@
         },
         "block_condition": {
             "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:block",
-                    "block": "minecraft:lapis_ore"
-                }
-            ]
+            "conditions": {
+                "type": "origins:block",
+                "block": "minecraft:lapis_ore"
+            }
         },
         "only_when_harvested": true
     },
@@ -124,12 +116,10 @@
         },
         "block_condition": {
             "type": "origins:and",
-            "conditions": [
-                {
+            "conditions": {
                     "type": "origins:block",
                     "block": "minecraft:coal_ore"
-                }
-            ]
+            }
         },
         "only_when_harvested": true
     },
@@ -146,12 +136,10 @@
         },
         "block_condition": {
             "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:block",
-                    "block": "minecraft:diamond_ore"
-                }
-            ] 
+            "conditions": {
+                "type": "origins:block",
+                "block": "minecraft:diamond_ore"
+            }
         },
         "only_when_harvested": true
     },
@@ -168,12 +156,10 @@
         },
         "block_condition": {
             "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:block",
-                    "block": "minecraft:emerald_ore"
-                }
-            ]
+            "conditions": {
+                "type": "origins:block",
+                "block": "minecraft:emerald_ore"
+            }
         },
         "only_when_harvested": true
     },

@@ -1,5 +1,6 @@
 {
     "name": "Small Stature",
+    "description": "You're smaller than most creatures.",
     "type": "origins:multiple",
     "modify_size": {
         "type": "extraorigins:modify_size",
