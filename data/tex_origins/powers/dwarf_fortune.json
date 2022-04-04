@@ -1,0 +1,185 @@
+{
+    "hidden": false,
+    "type": "origins:multiple",
+
+    "iron": {
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:chance",
+            "chance": 0.5,
+            "action": {
+                "type": "origins:execute_command",
+                "command": "give @s minecraft:raw_iron"
+            }
+        },
+        "block_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:iron_ore"
+                }
+            ]
+        },
+        "only_when_harvested": true
+    },
+
+    "gold": {
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:chance",
+            "chance": 0.5,
+            "action": {
+                "type": "origins:execute_command",
+                "command": "give @s minecraft:raw_gold"
+            }
+        },
+        "block_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:gold_ore"
+                }
+            ]
+        },
+        "only_when_harvested": true
+    },
+
+    "copper": {
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:chance",
+            "chance": 0.5,
+            "action": {
+                "type": "origins:execute_command",
+                "command": "give @s minecraft:raw_copper"
+            }
+        },
+        "block_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:copper_ore"
+                }
+            ]
+        },
+        "only_when_harvested": true
+    },
+
+    "redstone": {
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:chance",
+            "chance": 0.5,
+            "action": {
+                "type": "origins:execute_command",
+                "command": "give @s minecraft:redstone"
+            }
+        },
+        "block_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:redstone_ore"
+                }
+            ]
+        },
+        "only_when_harvested": true
+    },
+
+    "lapis": {
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:chance",
+            "chance": 0.5,
+            "action": {
+                "type": "origins:execute_command",
+                "command": "give @s minecraft:lapis_lazuli"
+            }
+        },
+        "block_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:lapis_ore"
+                }
+            ]
+        },
+        "only_when_harvested": true
+    },
+
+    "coal": {
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:chance",
+            "chance": 0.5,
+            "action": {
+                "type": "origins:execute_command",
+                "command": "give @s minecraft:coal"
+            }
+        },
+        "block_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:coal_ore"
+                }
+            ]
+        },
+        "only_when_harvested": true
+    },
+
+    "diamond": {
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:chance",
+            "chance": 0.5,
+            "action": {
+                "type": "origins:execute_command",
+                "command": "give @s minecraft:diamond"
+            }
+        },
+        "block_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:diamond_ore"
+                }
+            ] 
+        },
+        "only_when_harvested": true
+    },
+
+    "emerald": {
+        "type": "origins:action_on_block_break",
+        "entity_action": {
+            "type": "origins:chance",
+            "chance": 0.5,
+            "action": {
+                "type": "origins:execute_command",
+                "command": "give @s minecraft:diamond"
+            }
+        },
+        "block_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:emerald_ore"
+                }
+            ]
+        },
+        "only_when_harvested": true
+    },
+
+    "condition": {
+        "type": "origins:power_active",
+        "power": "tex_origins:dwarf_miners_song"
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Fire weakness",
+  "description": "Fire hurts you.",
+  "type": "origins:modify_damage_taken",
+  "damage_condition": {
+	"type": "origins:fire"
+  },
+  "modifier": {
+	"name": "Origin modifier",
+	"operation": "multiply_base",
+	"value": 1
+  }
+}

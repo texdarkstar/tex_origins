@@ -1,0 +1,12 @@
+{
+    "hidden": true,
+    "type": "origins:modify_break_speed",
+    "modifier": {
+        "value": 1.0,
+        "operation": "multiply_base"
+    },
+    "condition": {
+        "type": "origins:power_active",
+        "power": "tex_origins:dwarf_miners_song"
+    }
+}

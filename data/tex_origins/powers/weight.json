@@ -1,0 +1,11 @@
+{
+    "name": "Weight",
+    "description": "Your weight disables the use of elytras, and makes swimming impossible.",
+    "type": "origins:restrict_armor",
+    "chest": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:elytra"
+        }
+    }
+}

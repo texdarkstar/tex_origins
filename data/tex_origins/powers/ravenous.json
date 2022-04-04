@@ -1,0 +1,9 @@
+{
+  "name": "Ravenous",
+  "description": "You require massive amounts of food to keep moving.",
+  "type": "origins:modify_exhaustion",
+  "modifier":{
+	   "value": 2,
+	   "operation": "multiply_base"
+	   }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Small Stature",
+    "type": "origins:multiple",
+    "modify_size": {
+        "type": "extraorigins:modify_size",
+        "scale": 0.50
+      },
+    "modify_health": {
+        "type": "origins:attribute",
+            "modifier": {
+                "name": "small stature health reduction",
+                "attribute": "minecraft:generic.max_health",
+                "value": -4.0,
+                "operation": "addition"
+            }
+        }
+}

@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "origins": [
+        "tex_origins:troll",
+        "tex_origins:giant",
+        "tex_origins:dwarf"
+    ]
+}

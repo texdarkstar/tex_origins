@@ -1,0 +1,9 @@
+{
+    "name": "Miners Song",
+    "description": "Living underground allows to mine ores more efficiently",
+    "type": "origins:toggle",
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": false
+    }
+}

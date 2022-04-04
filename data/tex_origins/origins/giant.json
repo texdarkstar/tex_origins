@@ -1,0 +1,19 @@
+{
+    "name": "Giant",
+    "description": "Giants combine great size with great strength, giving them an unparalleled ability to wreak destruction upon anyone or anything unfortunate enough to get in their way.",
+    "powers": [
+        "origins:extra_reach",
+        "tex_origins:giant_size",
+        "tex_origins:ravenous",
+        "tex_origins:weight_water",
+        "tex_origins:weight",
+        "tex_origins:elytra_disable",
+        "tex_origins:overwhelm",
+        "tex_origins:extra_inventory",
+        "tex_origins:giant_speed",
+        "tex_origins:giant_jump",
+        "tex_origins:giant_fall"
+    ],
+    "icon": "minecraft:scaffolding",
+    "impact": 3
+}

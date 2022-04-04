@@ -1,0 +1,15 @@
+{
+    "name": "Troll",
+    "description": "Trolls are horrid carnivores found in all climates, from arctic wastelands to tropical jungles.  Most creatures avoid these beasts who know no fear and attack unceasingly when hungry",
+    "powers": [
+        "origins:carnivore",
+        "tex_origins:troll_flammable",
+        "tex_origins:troll_size",
+        "tex_origins:troll_regen",
+        "tex_origins:troll_rot_immunity",
+        "tex_origins:ravenous",
+        "origins:cat_vision"
+    ],
+    "icon": "minecraft:rotten_flesh",
+    "impact": 3
+}

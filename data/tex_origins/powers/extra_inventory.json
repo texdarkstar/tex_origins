@@ -1,0 +1,7 @@
+{
+    "name": "Extra Inventory",
+    "description": "You have extra inventory space.",
+    "type": "origins:inventory",
+    "title": "Giant Inventory",
+    "key": "primary"
+}

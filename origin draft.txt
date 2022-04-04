@@ -1,0 +1,56 @@
+troll
+    +passive regen (if not in sunlight)
+    +extra reach
+    +extra hearts
+    +dark vision
+
+    *tall
+
+    -fire damage
+    -carnivore
+
+vampire
+    -standing in water gives slowness and weakness
+    -burns in sunlights
+    -can't eat food
+
+    kills give blood points to fuel powers
+
+    +passive regen
+    +feather falling
+
+    +[primary] phase through blocks except obsidian for 3 seconds, on a cooldown
+    +[secondary] spend blood points to regain hunger, and gain strength and speed
+
+
+
+giant rework
+
+    +tall
+    +extra hearts
+    +extra reach
+    +large appetite
+    +deals extra damage due to sheer overwhelming force
+    +extra inventory
+
+    -heavy, sinks in water
+    -no elytra
+
+angel
+demon
+
+halfling
+dwarf
+elf
+
+saytr
+  speed I
+  leap
+  fall immunity
+  less hearts
+  hooves
+  size scale .75
+  slow swimming
+
+
+

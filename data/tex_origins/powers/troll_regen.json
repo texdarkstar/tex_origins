@@ -1,0 +1,21 @@
+{
+    "name": "Troll Constitution",
+    "description": "Out of sunlight you regenerate naturally.",
+    "condition": {
+        "inverted": true,
+        "type": "origins:exposed_to_sun"
+    },
+    "type": "origins:action_over_time",
+    "interval": 120,
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:regeneration",
+            "duration": 120,
+            "amplifier": 0,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        }
+    }
+}

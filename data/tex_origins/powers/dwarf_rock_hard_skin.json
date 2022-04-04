@@ -1,0 +1,13 @@
+{
+    "name": "Rock Hard Skin",
+    "description": "You have natural armor points.",
+    "type": "origins:attribute",
+    "modifiers": [
+        {
+            "attribute": "generic.armor",
+            "operation": "addition",
+            "value": 2
+        }
+    ],
+    "update_health": false
+}
