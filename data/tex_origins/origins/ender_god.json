@@ -1,0 +1,8 @@
+{
+    "name": "Ender God",
+    "impact": 3,
+    "powers": [
+        "tex_origins:prevent_death_use",
+        "tex_origins:prevent_death"
+    ]
+}

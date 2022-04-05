@@ -4,14 +4,13 @@
     "icon": "minecraft:cobblestone",
     "impact": 3,
     "powers": [
-        "origins:cat_vision",
+        "tex_origins:night_vision",
         "tex_origins:small_stature",
         "tex_origins:dwarf_rock_hard_skin",
         "tex_origins:dwarf_fortune",
         "tex_origins:unfamiliar_land",
         "tex_origins:dwarf_rage",
         "tex_origins:dwarf_stonemaster",
-        "tex_origins:sun_weakness",
         "tex_origins:dwarf_health"
     ]
 }

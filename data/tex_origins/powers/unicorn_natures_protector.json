@@ -1,0 +1,117 @@
+{
+    "name": "Natures Protector",
+    "type": "origins:self_action_on_kill",
+    "description": "Even fallen you have been charged to ensure no harm comes to nature.",
+    "condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:cow",
+                "inverted": true
+            },
+            {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:pig",
+                "inverted": true
+            },
+            {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:chicken",
+                "inverted": true
+            },
+            {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:sheep",
+                "inverted": true
+            },
+            {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:bee",
+                "inverted": true
+            },
+            {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:axolotl",
+                "inverted": true
+            },
+            {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:cat",
+                "inverted": true
+            },
+            {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:donkey",
+                "inverted": true
+            },
+            {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:fox",
+                "inverted": true
+            },
+            {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:goat",
+                "inverted": true
+            },
+            {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:horse",
+                "inverted": true
+            },
+            {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:llama",
+                "inverted": true
+            },
+            {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:mooshroom",
+                "inverted": true
+            },
+            {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:mule",
+                "inverted": true
+            },
+            {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:ocelot",
+                "inverted": true
+            },
+            {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:rabbit",
+                "inverted": true
+            },
+            {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:trader_llama",
+                "inverted": true
+            },
+            {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:turtle",
+                "inverted": true
+            },
+            {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:wolf",
+                "inverted": true
+            }
+        ]
+    },
+    "cooldown": 0,
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:wither",
+            "duration": 200,
+            "amplifier": 4,
+            "show_particles": false,
+            "show_icon": true
+        }
+
+    }
+}

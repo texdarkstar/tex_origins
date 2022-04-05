@@ -1,0 +1,12 @@
+{
+    "type": "origins:fire_projectile",
+    "cooldown": 2,
+    "hud_render": {
+        "should_render": true
+    },
+    "entity_type": "minecraft:lightning_bolt",
+    "key": {
+        "key": "key.use",
+        "continuous": false
+    }
+}

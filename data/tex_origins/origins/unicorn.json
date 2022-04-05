@@ -1,0 +1,9 @@
+{
+    "name": "Unicorn",
+    "description": "These creatures once served in the ancient war between the gods of the dimensions as healers and paladins, but have since fallen from their former glory after the Ender God Fell, now they walk on in humanoid shape and they miss much of their original power.",
+    "impact": 3,
+    "icon": "minecraft:golden_apple",
+    "powers": [
+        "tex_origins:unicorn_natures_protector"
+    ]
+}
