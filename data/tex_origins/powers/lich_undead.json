@@ -1,0 +1,6 @@
+{
+    "name": "Undead",
+    "description": "You are undead, and affected by smite.  You take damage from health potions but heal from damage potions.",
+    "type": "origins:entity_group",
+    "group": "undead"
+}

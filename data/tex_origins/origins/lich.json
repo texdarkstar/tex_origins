@@ -1,0 +1,13 @@
+{
+    "name": "Lich",
+    "icon": "minecraft:soul_sand",
+    "impact": 3,
+    "powers": [
+        "tex_origins:burn_in_daylight",
+        "tex_origins:prevent_death_use",
+        "tex_origins:prevent_death",
+        "tex_origins:lich_undead",
+        "tex_origins:lich_undead_metabolism",
+        "tex_origins:lich_wither"
+    ]
+}

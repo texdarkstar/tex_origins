@@ -1,4 +1,5 @@
 {
+    "hidden": true,
     "type": "origins:prevent_death",
     "condition": {
         "type": "origins:nbt",
@@ -15,6 +16,11 @@
             {
                 "type": "origins:execute_command",
                 "command": "kill @e[tag=prevent_death]",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "tellraw @s {\"text\": \"You're vulnerable!\"}",
                 "permission_level": 4
             }
         ]
