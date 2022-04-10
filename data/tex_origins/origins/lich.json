@@ -1,5 +1,6 @@
 {
     "name": "Lich",
+    "description": "Liches are formed by those that undergo an unholy ritual to cheat death by those that fear death.  Not many would desire to exist this way.  They desire and crave the warmth and life of other living creatures.",
     "icon": "minecraft:soul_sand",
     "impact": 3,
     "powers": [

@@ -8,8 +8,8 @@
         "interval": 20,
         "entity_action": {
             "type": "origins:feed",
-            "food": 1,
-            "saturation": 1
+            "food": 2,
+            "saturation": 2
         }
     },
 
@@ -33,7 +33,7 @@
             "actions": [
                 {
                     "type": "origins:heal",
-                    "amount": 3
+                    "amount": 4
                 },
                 {
                     "type": "origins:execute_command",
