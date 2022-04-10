@@ -1,7 +1,7 @@
 {
     "name": "Natures Protector",
     "type": "origins:self_action_on_kill",
-    "description": "Even fallen you have been charged to ensure no harm comes to nature.",
+    "description": "Even after the war is long over you have been charged to ensure no harm comes to nature.",
     "condition": {
         "type": "origins:or",
         "conditions": [

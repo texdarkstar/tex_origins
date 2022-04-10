@@ -15,11 +15,17 @@
             }
         },
         "block_condition": {
-            "type": "origins:and",
-            "conditions": {
-                "type": "origins:block",
-                "block": "minecraft:iron_ore"
-            }
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:deepslate_iron_ore"
+                },
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:iron_ore"
+                }
+            ]
         },
         "only_when_harvested": true
     },
@@ -35,11 +41,17 @@
             }
         },
         "block_condition": {
-            "type": "origins:and",
-            "conditions": {
-                "type": "origins:block",
-                "block": "minecraft:gold_ore"
-            }
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:deepslate_gold_ore"
+                },
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:gold_ore"
+                }
+            ]
         },
         "only_when_harvested": true
     },
@@ -55,11 +67,17 @@
             }
         },
         "block_condition": {
-            "type": "origins:and",
-            "conditions": {
-                "type": "origins:block",
-                "block": "minecraft:copper_ore"
-            }
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:deepslate_copper_ore"
+                },
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:copper_ore"
+                }
+            ]
         },
         "only_when_harvested": true
     },
@@ -75,11 +93,17 @@
             }
         },
         "block_condition": {
-            "type": "origins:and",
-            "conditions": {
-                "type": "origins:block",
-                "block": "minecraft:redstone_ore"
-            }
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:deepslate_redstone_ore"
+                },
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:redstone_ore"
+                }
+            ]
         },
         "only_when_harvested": true
     },
@@ -95,11 +119,16 @@
             }
         },
         "block_condition": {
-            "type": "origins:and",
-            "conditions": {
-                "type": "origins:block",
-                "block": "minecraft:lapis_ore"
-            }
+            "type": "origins:or",
+            "conditions": [                {
+                    "type": "origins:block",
+                    "block": "minecraft:deepslate_lapis_ore"
+                },
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:lapis_ore"
+                }
+            ]
         },
         "only_when_harvested": true
     },
@@ -115,11 +144,17 @@
             }
         },
         "block_condition": {
-            "type": "origins:and",
-            "conditions": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:deepslate_coal_ore"
+                },
+                {
                     "type": "origins:block",
                     "block": "minecraft:coal_ore"
-            }
+                }
+            ]
         },
         "only_when_harvested": true
     },
@@ -135,11 +170,17 @@
             }
         },
         "block_condition": {
-            "type": "origins:and",
-            "conditions": {
-                "type": "origins:block",
-                "block": "minecraft:diamond_ore"
-            }
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:deepslate_diamond_ore"
+                },
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:diamond_ore"
+                }
+            ]
         },
         "only_when_harvested": true
     },
@@ -155,11 +196,17 @@
             }
         },
         "block_condition": {
-            "type": "origins:and",
-            "conditions": {
-                "type": "origins:block",
-                "block": "minecraft:emerald_ore"
-            }
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:deepslate_emerald_ore"
+                },
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:emerald_ore"
+                }
+            ]
         },
         "only_when_harvested": true
     },

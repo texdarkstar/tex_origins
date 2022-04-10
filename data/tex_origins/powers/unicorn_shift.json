@@ -1,0 +1,27 @@
+{
+    "name": "Unicorn Shape",
+    "description": "You can take an equestrian shape.",
+    "type": "origins:active_self",
+    "cooldown": 200,
+    "hud_render": {
+        "should_render": true
+    },
+    "entity_action": {
+        "type": "origins:if_else",
+        "if_action": {
+            "type": "origins:grant_power",
+            "power": "tex_origins:unicorn_shape",
+            "source": "tex_origins:unicorn_shape"
+        },
+        "else_action": {
+            "type": "origins:revoke_power",
+            "power": "tex_origins:unicorn_shape",
+            "source": "tex_origins:unicorn_shape"
+        },
+        "condition": {
+            "type": "origins:power",
+            "power": "tex_origins:unicorn_shape",
+            "inverted": true
+        }
+    }
+}
