@@ -1,0 +1,10 @@
+{
+    "hidden": true,
+    "type": "origins:effect_immunity",
+    "effect": "minecraft:poison",
+    "condition": {
+        "type": "origins:power",
+        "power": "tex_origins:unicorn_forgivness",
+        "inverted": true
+    }
+}

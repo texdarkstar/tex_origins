@@ -1,14 +1,14 @@
 {
-    "type": "origins:action_over_time",
-    "interval": 20,
-    "entity_action": {
-        "type": "origins:apply_effect",
-        "effect": {
-            "effect": "minecraft:speed",
-            "amplifier": 2,
-            "show_icon": false,
-            "show_particles": false,
-            "duration": 60
-        }
+    "type": "origins:conditioned_attribute",
+    "condition": {
+        "type": "origins:power",
+        "power": "tex_origins:unicorn_shape"
+    },
+
+    "modifier": {
+        "name": "unicorn form move speed",
+        "attribute": "minecraft:generic.movement_speed",
+        "value": 0.085,
+        "operation": "addition"
     }
 }

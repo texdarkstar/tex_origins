@@ -1,0 +1,46 @@
+{
+    "type": "origins:multiple",
+    "name": "Lights Vengence",
+    "description": "You deal +4 extra damage to undead but take +4 extra damage from them.",
+
+
+    "unicorn_damage_dealt_to_undead": {
+        "type": "origins:modify_damage_dealt",
+        "condition": {
+            "type": "origins:power",
+            "power": "tex_origins:unicorn_forgivness",
+            "inverted": true
+        },
+        "target_condition": {
+            "type": "origins:entity_group",
+            "group": "undead"
+        },
+        "modifier": {
+            "name": "Extra damage to undead",
+            "value": 4,
+            "operation": "addition"
+        }
+    },
+
+
+    "unicorn_damage_taken_from_undead": {
+        "type": "origins:modify_damage_taken",
+        "condition": {
+            "type": "origins:power",
+            "power": "tex_origins:unicorn_forgivness",
+            "inverted": true
+        },
+        "damage_condition": {
+            "type": "origins:attacker",
+            "entity_condition": {
+                "type": "origins:entity_group",
+                "group": "undead"
+            }
+        },
+        "modifier": {
+            "name": "Extra damage from undead",
+            "value": 4,
+            "operation": "addition"
+        }
+    }
+}

@@ -2,116 +2,115 @@
     "name": "Natures Protector",
     "type": "origins:self_action_on_kill",
     "description": "Even after the war is long over you have been charged to ensure no harm comes to nature.",
-    "condition": {
+    "cooldown": 0,
+    "target_condition": {
         "type": "origins:or",
         "conditions": [
             {
                 "type": "origins:entity_type",
-                "entity_type": "minecraft:cow",
-                "inverted": true
+                "entity_type": "minecraft:cow"
             },
             {
                 "type": "origins:entity_type",
-                "entity_type": "minecraft:pig",
-                "inverted": true
+                "entity_type": "minecraft:pig"
             },
             {
                 "type": "origins:entity_type",
-                "entity_type": "minecraft:chicken",
-                "inverted": true
+                "entity_type": "minecraft:chicken"
             },
             {
                 "type": "origins:entity_type",
-                "entity_type": "minecraft:sheep",
-                "inverted": true
+                "entity_type": "minecraft:sheep"
             },
             {
                 "type": "origins:entity_type",
-                "entity_type": "minecraft:bee",
-                "inverted": true
+                "entity_type": "minecraft:bee"
             },
             {
                 "type": "origins:entity_type",
-                "entity_type": "minecraft:axolotl",
-                "inverted": true
+                "entity_type": "minecraft:axolotl"
             },
             {
                 "type": "origins:entity_type",
-                "entity_type": "minecraft:cat",
-                "inverted": true
+                "entity_type": "minecraft:cat"
             },
             {
                 "type": "origins:entity_type",
-                "entity_type": "minecraft:donkey",
-                "inverted": true
+                "entity_type": "minecraft:donkey"
             },
             {
                 "type": "origins:entity_type",
-                "entity_type": "minecraft:fox",
-                "inverted": true
+                "entity_type": "minecraft:fox"
             },
             {
                 "type": "origins:entity_type",
-                "entity_type": "minecraft:goat",
-                "inverted": true
+                "entity_type": "minecraft:goat"
             },
             {
                 "type": "origins:entity_type",
-                "entity_type": "minecraft:horse",
-                "inverted": true
+                "entity_type": "minecraft:horse"
             },
             {
                 "type": "origins:entity_type",
-                "entity_type": "minecraft:llama",
-                "inverted": true
+                "entity_type": "minecraft:llama"
             },
             {
                 "type": "origins:entity_type",
-                "entity_type": "minecraft:mooshroom",
-                "inverted": true
+                "entity_type": "minecraft:mooshroom"
             },
             {
                 "type": "origins:entity_type",
-                "entity_type": "minecraft:mule",
-                "inverted": true
+                "entity_type": "minecraft:mule"
             },
             {
                 "type": "origins:entity_type",
-                "entity_type": "minecraft:ocelot",
-                "inverted": true
+                "entity_type": "minecraft:ocelot"
             },
             {
                 "type": "origins:entity_type",
-                "entity_type": "minecraft:rabbit",
-                "inverted": true
+                "entity_type": "minecraft:rabbit"
             },
             {
                 "type": "origins:entity_type",
-                "entity_type": "minecraft:trader_llama",
-                "inverted": true
+                "entity_type": "minecraft:trader_llama"
             },
             {
                 "type": "origins:entity_type",
-                "entity_type": "minecraft:turtle",
-                "inverted": true
+                "entity_type": "minecraft:turtle"
             },
             {
                 "type": "origins:entity_type",
-                "entity_type": "minecraft:wolf",
-                "inverted": true
+                "entity_type": "minecraft:wolf"
             }
         ]
     },
-    "cooldown": 0,
-    "entity_action": {
-        "type": "origins:apply_effect",
-        "effect": {
-            "effect": "minecraft:wither",
-            "duration": 200,
-            "amplifier": 4,
-            "show_particles": false,
-            "show_icon": true
-        }
 
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "playsound minecraft:entity.elder_guardian.curse player @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "tellraw @s {\"text\": \"You have broken your oath....\"}"
+            },
+            {
+                "type": "origins:revoke_power",
+                "power": "tex_origins:unicorn_shift",
+                "source": "tex_origins:unicorn"
+            },
+            {
+                "type": "origins:revoke_power",
+                "power": "tex_origins:unicorn_natures_protector",
+                "source": "tex_origins:unicorn"
+            },
+            {
+                "type": "origins:grant_power",
+                "power": "tex_origins:unicorn_forgivness",
+                "source": "tex_origins:unicorn"
+            }
+        ]
     }
 }

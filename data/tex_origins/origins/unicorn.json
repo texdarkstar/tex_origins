@@ -1,11 +1,17 @@
 {
     "name": "Unicorn",
-    "description": "These creatures once served in the ancient war between the gods of the dimensions as healers and support units, and even now after the war they still stand strong against the dark.",
+    "description": "These proud creatures once served in the ancient war between the gods of the dimensions as healers and support units, and even now after the war they still stand strong against the dark.",
     "impact": 3,
     "icon": "minecraft:golden_apple",
     "powers": [
+        "origins:vegetarian",
         "tex_origins:unicorn_shift",
         "tex_origins:unicorn_natures_protector",
-        "origins:vegetarian"
+        "tex_origins:unicorn_undead_damage",
+        "tex_origins:unicorn_poison",
+        "tex_origins:unicorn_speed",
+        "tex_origins:unicorn_mount",
+        "tex_origins:unicorn_fall",
+        "tex_origins:unicorn_prevent_mount"
     ]
 }

@@ -1,0 +1,9 @@
+{
+    "type": "origins:modify_falling",
+    "condition": {
+        "type": "origins:power",
+        "power": "tex_origins:unicorn_shape"
+    },
+    "velocity": 0.08,
+    "take_fall_damage": false
+}

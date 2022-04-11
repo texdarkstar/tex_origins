@@ -1,0 +1,79 @@
+{
+    "name": "Forgivness",
+    "hidden": false,
+    "description": "You have a chance of being forgiven if you sacrifice a nether star.",
+    "type": "origins:active_self",
+    "cooldown": 0,
+    "hud_render": {
+        "should_render": false
+    },
+    "key": {
+        "key": "key.use"
+    },
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "clear @s minecraft:nether_star 1"
+            },
+            {
+                "type": "origins:chance",
+                "chance": 0.25,
+                "action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:execute_command",
+                            "command": "playsound minecraft:block.end_portal.spawn player @s",
+                            "permission_level": 4
+                        },
+                        {
+                            "type": "origins:grant_power",
+                            "power": "tex_origins:unicorn_shift",
+                            "source": "tex_origins:unicorn"
+                        },
+                        {
+                            "type": "origins:grant_power",
+                            "power": "tex_origins:unicorn_natures_protector",
+                            "source": "tex_origins:unicorn"
+                        },
+                        {
+                            "type": "origins:revoke_power",
+                            "power": "tex_origins:unicorn_forgivness",
+                            "source": "tex_origins:unicorn"
+                        },
+                        {
+                            "type": "origins:add_xp",
+                            "levels": -30
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "command": "tellraw @s {\"text\": \"You've been forgiven for your past crimes, but it takes a toll on you.\"}"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:xp_levels",
+                "comparison": ">=",
+                "compare_to": 30
+            },
+            {
+                "type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:nether_star"
+                        }
+                    }
+            }
+        ]
+    }
+}

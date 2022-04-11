@@ -4,19 +4,9 @@
         "type": "origins:and",
         "actions": [
             {
-                "type": "origins:grant_power",  
-                "power": "tex_origins:unicorn_speed",
-                "source": "tex_origins:unicorn_speed"
-            },
-            {
                 "type": "origins:execute_command",
                 "command": "playsound minecraft:entity.enderman.teleport player @a[distance=..10] ~ ~ ~ 1 1 1",
                 "permission_level": 4
-            },
-            {
-                "type": "origins:grant_power",  
-                "power": "tex_origins:unicorn_mount",
-                "source": "tex_origins:unicorn_mount"
             },
             {
                 "type": "origins:execute_command",
@@ -32,16 +22,6 @@
                 "type": "origins:execute_command",
                 "command": "playsound minecraft:entity.enderman.teleport player @a[distance=..10] ~ ~ ~ 1 1 1",
                 "permission_level": 4
-            },
-            {
-                "type": "origins:revoke_power",  
-                "power": "tex_origins:unicorn_mount",
-                "source": "tex_origins:unicorn_mount"
-            },
-            {
-                "type": "origins:revoke_power",  
-                "power": "tex_origins:unicorn_speed",
-                "source": "tex_origins:unicorn_speed"
             },
             {
                 "type": "origins:execute_command",
