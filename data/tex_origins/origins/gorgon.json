@@ -1,0 +1,14 @@
+{
+    "name": "Gorgon",
+    "description": "",
+    "impact": 3,
+    "icon": "minecraft:golden_apple",
+    "powers": [
+        "origins:carnivore",
+        "tex_origins:gorgon_immune",
+        "tex_origins:gorgon_less_hearts",
+        "tex_origins:gorgon_spawn",
+        "tex_origins:gorgon_sunlight",
+        "tex_origins:gorgon_slow"
+    ]
+}

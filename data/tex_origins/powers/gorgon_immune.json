@@ -1,0 +1,9 @@
+{
+    "name": "Strong Stomach",
+    "description": "You're accustomed to eating questionable things in the swamps.",
+    "type": "origins:effect_immunity",
+    "effects": [
+        "minecraft:hunger",
+        "minecraft:poison"
+    ]
+}

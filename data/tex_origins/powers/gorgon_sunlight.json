@@ -1,0 +1,20 @@
+{
+    "name": "Heliophobia",
+    "description": "You partially petrify in sunlight.",
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 2,
+    "duration_per_stack": 40,
+    "condition": {
+        "type": "origins:exposed_to_sun"
+    },
+    "effects": [
+        {
+            "effect": "minecraft:slowness",
+            "amplifier": 3,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        }
+    ]
+}
